@@ -20,7 +20,7 @@ Moteur_DC::Moteur_DC()
 	Tm = 0;
 	dVit = Vit = 0;
 	Pos = 0;
-    usure = 0.0;
+	usure = 0.0;
 }
 
 /*
