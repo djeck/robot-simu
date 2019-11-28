@@ -6,8 +6,8 @@ def affichage(t, x):
 	fig, ax = plt.subplots()
 	ax.plot(t, x)
 
-	ax.set(xlabel='time (s)', ylabel='voltage (mV)',
-		   title='About as simple as it gets, folks')
+	ax.set(xlabel='time (s)', ylabel='X',
+		   title='')
 	ax.grid()
 
 	fig.savefig("test.png")
